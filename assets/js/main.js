@@ -21,7 +21,7 @@ $(document).ready(function() {
                 renderChart(data.powerstats);
             },
             error: function() {
-                alert('Error fetching superhero data. Please try again.');
+                alert('Error al obtener los datos del SuperHero. Reintentar ');
             }
         });
     }
